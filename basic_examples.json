@@ -1,0 +1,53 @@
+[
+    {
+      "instruction": "Fix the syntax error",
+      "input": "def sum(a;b): return a + b",
+      "output": "def sum(a, b): return a + b"
+    },
+    {
+      "instruction": "Correct the indentation",
+      "input": "if x > 5:\nreturn x",
+      "output": "if x > 5:\n    return x"
+    },
+    {
+      "instruction": "Fix the missing colon",
+      "input": "for i in range(5)\nprint(i)",
+      "output": "for i in range(5):\n    print(i)"
+    },
+    {
+      "instruction": "Resolve the undefined variable",
+      "input": "x = y + 10",
+      "output": "y = 5\nx = y + 10"
+    },
+    {
+      "instruction": "Fix the wrong operator",
+      "input": "result = num1 / num2",
+      "output": "result = num1 + num2"
+    },
+    {
+      "instruction": "Correct the wrong function name",
+      "input": "def calcualte_sum(a, b):\n    return a + b",
+      "output": "def calculate_sum(a, b):\n    return a + b"
+    },
+    {
+      "instruction": "Fix the variable naming",
+      "input": "my_var = 42\nmyVar = my_var + 1",
+      "output": "my_var = 42\nmy_var = my_var + 1"
+    },
+    {
+      "instruction": "Resolve the missing return statement",
+      "input": "def add(a, b):\n    a + b",
+      "output": "def add(a, b):\n    return a + b"
+    },
+    {
+      "instruction": "Fix the indexing error",
+      "input": "my_list = [1, 2, 3]\nvalue = my_list[3]",
+      "output": "my_list = [1, 2, 3]\nvalue = my_list[2]"
+    },
+    {
+      "instruction": "Correct the wrong function call",
+      "input": "result = add_numbers(5, 7)",
+      "output": "result = add(5, 7)"
+    }
+  ]
+  
