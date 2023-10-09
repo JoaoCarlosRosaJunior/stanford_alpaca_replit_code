@@ -1,7 +1,7 @@
 numpy
 rouge_score
 fire
-transformers>=4.28.1
+transformers>=4.33.1
 torch
 sentencepiece
 tokenizers>=0.13.3
